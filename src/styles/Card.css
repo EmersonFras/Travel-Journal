@@ -1,0 +1,49 @@
+#CardList {
+    margin: 45px 40px 28px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#Card {
+    display: flex;
+    justify-content: center;
+    gap: 19px;
+}
+
+.card--image {
+    width: 125px;
+    height: 168px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.card--info {
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 20px;
+    gap: 7px;
+}
+
+.card--title {
+    font-size: 25px;
+    margin-bottom: 7px;
+}
+
+.card--location-info {
+    display: flex;
+
+    align-items: center;
+    gap: 4px;
+}
+
+.card--link {
+    padding-left: 8px;
+    color: #918E9B;
+}
+
+.path {
+    width: auto;
+    height: 100%;
+}

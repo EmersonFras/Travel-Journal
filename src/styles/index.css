@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    font-family: Inter, sans-serif;
+}
+
+#root {
+    height: 100vh;
+    background-color: bisque;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#Page {
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+    
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+
+.small-text {
+    font-size: .64rem;
+}
+
+.bold-text {
+    font-weight: 700;
+}

@@ -1,0 +1,15 @@
+#head {
+    background-color: #F55A5A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 55px;
+    gap: 7px;
+}
+
+.title {
+    color: white;
+    font-weight: 500;
+    font-size: 15px;
+}
